@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, system-ui;
+}
+  
+main > div {
+    height: 10rem;
+    margin: 2rem;
+    border: darkgrey 1px solid;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.header-main {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.header-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.header-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.header-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.header-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.header-social-buttons {
+    display: flex;
+
+    li {
+        margin-right: 1vw;
+    }
+}
+
+@media(max-width:767px) {
+    .header-message {
+        padding-bottom: 15%;
+    }
+
+    .header-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.header-social-buttons > li {
+        margin-bottom: 3vw;
+        padding: 0;
+    }
+
+    ul.header-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .header-divider {
+        width: 100%;
+    }
+}
+
+.social-app-name {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.contact-social-links {
+    display: flex;
+    justify-content: start;
+
+    li {
+        margin-right: 1vw;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+
+    div {
+        display: flex;
+        justify-content: end;
+    }
+}
