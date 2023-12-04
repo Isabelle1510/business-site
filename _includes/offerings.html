@@ -1,0 +1,13 @@
+<section id="services">
+    <div class="container">
+        <div class="row offerings-row">
+            {% for offering in site.offerings %}
+            <div class="col-3 offerings">
+                <div class="offering-image"><img src="{{ offering.image_path}}" alt="{{ offering.title }} image"></div>
+                <h3>{{ offering.title }}</h3>
+                <p>{{ offering.description }} </p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

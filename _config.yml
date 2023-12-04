@@ -21,11 +21,10 @@
 title: EightPaws Tech
 email: isabellerochecouste@eightpawstech.com
 description: >- 
-  EightPaws Tech is a Software Consultancy and Development business
+  EightPaws Tech is a Software Consultancy and Development Business
 baseurl: "/"
 url: "http://www.eightpawstech.com" 
 github_username:  Isabelle1510
-copyright: Blablablabla
 
 # Build settings
 markdown: kramdown
@@ -37,11 +36,22 @@ plugins:
 
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
+    url: https://twitter.com/EightPawsTech
   - title: github
     url: https://github.com/Isabelle1510
   - title: linkedin
-    url: https://linkedin.com
+    url: https://www.linkedin.com/in/isabelle-rochecouste-924b22119/
+
+offerings:
+  - title: Software Development
+    description: Whether you need additional man/womanpower on your existing development team or have an adhoc website/tool which you need built. We can deliver high-quality, well-tested, and maintainable code to set your business up for success.
+    image_path: ./assets/images/checklist.png
+  - title: Software Consultancy
+    description: We can assist you with organising your backlog, developing strategic technical roadmaps, improving technical solutions, or help you with hiring your first developers. If you don't know where to start or are stuck in your current situation, let us help you!
+    image_path: ./assets/images/settings.png
+  - title: Digital Transformation
+    description: We can help you get up to speed with the newest technologies by incorporating them into your system for better flexibility and speed. We provide a holistic approach that makes sure all aspects of your organization come together flawlessly.
+    image_path: ./assets/images/project-management.png
 
 # Exclude from processing.
 # The following items will not be processed, by default.
