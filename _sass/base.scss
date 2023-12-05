@@ -17,10 +17,9 @@ $subheading-text-colour: #27442A;
 }
 
 body {
-    width: 100%;
     margin: 0;
     padding: 0;
-    font-family: Arial, system-ui;
+    overflow-x: hidden;
 }
   
 main > div {
